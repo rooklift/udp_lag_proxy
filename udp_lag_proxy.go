@@ -1,8 +1,9 @@
 // lagproxy: a UDP man-in-the-middle that delays traffic in both directions.
 //
 // Usage:
-//	go run . -listen :27501 -target 127.0.0.1:27500 -delay 100ms
-// then point the client at port 27501 instead of 27500.
+// udp_lag_proxy.exe -listen :27501 -target 127.0.0.1:27500 -delay 100ms
+//
+// ...then point the client at port 27501 instead of 27500.
 
 package main
 
